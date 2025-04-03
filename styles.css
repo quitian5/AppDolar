@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre tarjetas */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .tarjeta {
+    width: 200px; /* Ancho fijo */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;*/
+  }
+  
+  .tarjeta h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #007BFF;
+  }
+  
+  .tarjeta p {
+    margin: 5px 0;
+    color: #555;
+  }
